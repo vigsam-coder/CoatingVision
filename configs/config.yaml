@@ -1,0 +1,14 @@
+BACKBONE: resnet50
+ARCHITECTURE: unet
+paths:
+  x_train_dir: ./dataset/Segmentation/train/images
+  y_train_dir: ./dataset/Segmentation/train/masks
+  x_valid_dir: ./dataset/Segmentation/val/images
+  y_valid_dir: ./dataset/Segmentation/val/masks
+image_size:
+- 480
+- 640
+BATCH_SIZE: 4
+LR: 0.0001
+EPOCHS: 5
+n_classes: 4

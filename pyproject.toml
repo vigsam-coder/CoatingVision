@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CoatingVision"
+version = "0.1.0"
+description = "A Python package for Coating Vision Defect Detection"
+authors = [
+    { name = "Vignesh", email = "vigneshirtt@alumni.iitm.ac.in" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "albumentations==1.4.14",
+    "albucore==0.0.16",
+    "PyQt5==5.15.11",
+    "PyYAML==6.0.2",
+    "tensorflow==2.18.0",
+    "matplotlib",
+    "tqdm"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39', 'py310']
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

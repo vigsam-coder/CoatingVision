@@ -1,0 +1,38 @@
+augmentation:
+  horizontal_flip:
+    enabled: true
+    probability: 0.5
+  shift_scale_rotate:
+    enabled: true
+    scale_limit: 0.5
+    rotate_limit: 0
+    shift_limit: 0.1
+    probability: 1.0
+    border_mode: 0
+  pad_if_needed:
+    enabled: true
+    border_mode: 0
+    value: 0
+    probability: 1.0
+  perspective:
+    enabled: true
+    probability: 1
+  brightness_contrast_gamma:
+    enabled: true
+    RandomBrightnessContrast_prob: 1.0
+    RandomGamma_prob: 1.0
+    probability: 0.9
+  random_crop:
+    enabled: true
+    height: 200
+    width: 200
+    probability: 0.2
+  motion_blur:
+    enabled: true
+    probability: 0.9
+  distortion:
+    enabled: true
+    OpticalDistortion_prob: 0.3
+    GridDistortion_prob: 0.1
+    PiecewiseAffine_prob: 0.3
+    probability: 0.3
