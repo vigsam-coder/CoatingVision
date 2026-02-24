@@ -114,11 +114,15 @@ We are continuously expanding our CoatingVision dataset by incorporating data co
 If you use this dataset or codebase in your research, please cite:
 
 ```bibtex
-@misc{Nature2025coatingvision,
-  title        = {CoatingVision: A Slot Die Coating Electrodes Defect Dataset},
-  author       = {Vignesh Sampath, Andrew Lee, Samuel D.Miller, Noah Paulson, Yuepeng Zang, Logan Ward},
-  year         = {2025},
-  howpublished = {\url{TBD}},
-  note         = {Accessed: TBD}
+@article{Sampath2026,
+  author       = {Sampath, Vignesh and Lee, Andrew S. and Miller, Samuel David and Paulson, Noah H. and Zhang, Yuepeng and Ward, Logan},
+  title        = {A Defect Dataset for Electrode Coating Manufacturing},
+  journal      = {Scientific Data},
+  year         = {2026},
+  month        = feb,
+  day          = {14},
+  issn         = {2052-4463},
+  doi          = {10.1038/s41597-025-06419-1},
+  url          = {https://doi.org/10.1038/s41597-025-06419-1}
 }
 
